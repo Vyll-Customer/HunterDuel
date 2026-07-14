@@ -25,7 +25,7 @@ class BalanceTests(unittest.TestCase):
         fair = TechniqueBalancer.balance(TechniqueDraft(power=6, reach=6, speed=6, control=6))
         self.assertGreater(maxed.aura_cost, fair.aura_cost)
         self.assertGreater(maxed.cooldown, fair.cooldown)
-       self.assertIn("offset", maxed.balance_note)
+        self.assertIn("offset", maxed.balance_note)
 
     def test_special_copies_balanced_frame_data(self):
         tech = TechniqueBalancer.balance(TechniqueDraft(name="Testowa Aura"))
