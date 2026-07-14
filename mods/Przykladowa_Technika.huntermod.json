@@ -1,0 +1,16 @@
+{
+  "format": 1,
+  "pack_name": "Starter Pack",
+  "techniques": [
+    {
+      "name": "Neonowy Meteor",
+      "archetype": "projectile",
+      "power": 7,
+      "reach": 8,
+      "speed": 6,
+      "control": 4,
+      "color_index": 0
+    }
+  ]
+}
+

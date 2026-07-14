@@ -1,0 +1,28 @@
+HUNTER DUEL — POMOC Z URUCHOMIENIEM
+===================================
+
+WINDOWS
+1. Wypakuj CAŁY plik ZIP. Nie uruchamiaj gry wewnątrz podglądu ZIP.
+2. Otwórz wypakowany folder.
+3. Kliknij dwa razy plik start_game.bat.
+4. Przy pierwszym uruchomieniu instalacja Pygame może potrwać chwilę.
+
+Jeśli zobaczysz komunikat o braku Pythona:
+- zainstaluj Python 3.10 lub nowszy,
+- podczas instalacji zaznacz "Add Python to PATH",
+- uruchom ponownie start_game.bat.
+
+macOS / LINUX
+Otwórz Terminal w folderze gry i wpisz:
+
+  chmod +x start_game.sh
+  ./start_game.sh
+
+CZĘSTE PROBLEMY
+- Nie uruchamiaj samego main.py przed instalacją Pygame.
+- Nie przenoś pojedynczego pliku BAT poza folder gry.
+- Jeśli instalacja Pygame nie działa, sprawdź połączenie z internetem.
+- Jeżeli antywirus blokuje plik BAT, uruchom polecenia z README ręcznie.
+
+Gdy błąd nadal występuje, zrób zdjęcie całego komunikatu w czarnym oknie.
+Poprawiony launcher nie zamyka okna po błędzie.

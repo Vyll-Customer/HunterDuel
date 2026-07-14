@@ -1,0 +1,28 @@
+HUNTER DUEL — FOLDER MODÓW
+================================
+
+Do tego folderu możesz wrzucać pliki z końcówką .huntermod.json.
+Nie instalujesz ich — po prostu kopiujesz plik i ponownie uruchamiasz grę.
+
+Przykład:
+{
+  "format": 1,
+  "pack_name": "Moje techniki",
+  "techniques": [
+    {
+      "name": "Burza Nen",
+      "archetype": "projectile",
+      "power": 7,
+      "reach": 8,
+      "speed": 5,
+      "control": 4,
+      "color_index": 0
+    }
+  ]
+}
+
+Archetype: impact, projectile, mobility albo counter.
+Wartości power/reach/speed/control: od 1 do 10.
+color_index: od 0 do 4.
+
+Gra ignoruje wadliwe pliki zamiast się przez nie wyłączyć.
